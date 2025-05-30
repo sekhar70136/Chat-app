@@ -16,3 +16,5 @@ This is a real-time chat application built using HTML, CSS, JavaScript, Node.js,
 
 output :
 
+[![Image](https://github.com/user-attachments/assets/a8ca7c16-0e88-4197-9717-4a343708acd5)](url)
+
