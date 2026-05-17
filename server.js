@@ -3,7 +3,10 @@ const app = express();
 const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 
-app.use(express.static('public'));
+const path = require('path');
+
+// Serve static files from the project root so index.html, script.js, style.css are reachable
+app.use(express.static(path.join(__dirname)));
 
 io.on('connection', (socket) => {
   console.log('A user connected');
